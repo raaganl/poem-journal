@@ -37,7 +37,7 @@ export default function Nav() {
 
     const formattedDate = `${month} . ${day} . ${year}`;
     let body = '';
-    const entry = createEntry({body,formattedDate});
+    const entry = createEntry({body: body,date: formattedDate});
     addWorks(entry);
     console.log(entry);
     navigate(`/Entry/${entry.id}`, { 
