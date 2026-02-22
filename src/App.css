@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 :root {
-  --white: #F7F6F0;
-   --off-white: #F3F1EB;
+  --white: #FAF8F4;
+   --off-white: #F6F4F0;
   --light-grey: #D0CEC7;
   --grey: #A5A398;
   --dark-grey: #383838;
   --black: #000000;
-  --brand-light: #DDD9C6;
+  --brand-light: #D2D9F4;
   --warning: #BD4F5A;
+  --warning-light: #CA5C67;
 
   --title: 2rem;
   --subtitle: 1.4rem;

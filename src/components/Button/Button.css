@@ -42,3 +42,18 @@
     border-radius: 10px;
     font-size: var(--clickables-text);
 }
+
+.primary-warning-button{
+    background-color: var(--warning);
+    padding: 15px 20px 15px 20px;
+    height:fit-content;
+    color: var(--white);
+    border: none;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: var(--clickables-text);
+}
+
+.primary-warning-button:hover{
+    background-color: var(--warning-light);
+}

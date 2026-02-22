@@ -29,7 +29,7 @@ export default function JournalEntryForm({journalObject}) {
     event.preventDefault();
     const entry = {
       body,
-      formattedDate,
+      date,
     };
     updateWorks(journalObject.id, entry);
     setIsActive(false);
@@ -84,7 +84,6 @@ export default function JournalEntryForm({journalObject}) {
             />
           </div>
           <input type="hidden" name="entryContent" value={body}></input>
-          <input type="hidden" name="entryDate" value={formattedDate}></input>
           <div className="button-container-entry">
             <Button buttonText={"Save"} type={"submit"} className={"primary-button"} isActive={isActive}/>
           </div>

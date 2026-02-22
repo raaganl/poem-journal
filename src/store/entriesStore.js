@@ -1,10 +1,10 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-function createEntry({ body, formattedDate }) {
+function createEntry({ body, date }) {
   return {
     id: Date.now(),
     body,
-    formattedDate,
+    date,
   };
 }
 export default createEntry;
