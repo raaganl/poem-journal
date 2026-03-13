@@ -20,7 +20,7 @@
     padding: 15px 20px 15px 20px;
     height:fit-content;
     color: var(--dark-grey);
-    border: 1.5px solid var(--black);
+    border: 1px solid var(--black);
     width: fit-content;
     border-radius: 10px;
     font-size: var(--clickables-text);
@@ -29,7 +29,7 @@
 .secondary-button:hover{
     background-color: var(--black);
     color: var(--white);
-    border: 1.5px solid var(--black);
+    border: 1px solid var(--black);
 }
 
 .disabled-button{

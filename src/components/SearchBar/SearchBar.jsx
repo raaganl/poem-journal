@@ -11,4 +11,4 @@ export default function SearchBar({onChange, placeHolder}){
             <hr className = "search-hr"></hr>
         </div>
     );
-}
+}``
