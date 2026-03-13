@@ -1,7 +1,7 @@
 import "./Nav.css";
 import { useNavigate } from 'react-router-dom';
 import { NavLink } from "react-router-dom";
-import { Book2Line, Book2Fill, User1Fill, User1Line } from "@mingcute/react";
+import { Book2Line, Book2Fill, User1Fill, User1Line, QuillPenLine, QuillPenFill} from "@mingcute/react";
 import Button from "../Button/Button";
 import WorkTab from "../WorkTab/WorkTab";
 import { WorksContext } from '../../contexts/WorksContext';
@@ -47,6 +47,7 @@ export default function Nav() {
 
   return (
     <nav className="nav-bar">
+      <h1 className = "logo">Spindle</h1>
       <div className = "actions-container">
         <form>
           <Button buttonText={"New Work"} isActive={true} type={"button"} className={"secondary-button"} onClick={createNewWork} />
